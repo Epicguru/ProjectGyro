@@ -46,7 +46,7 @@ public class PlayerMovementAdaptor : MonoBehaviour
         else
         {
             // When on ground, reset gravity offset;
-            Velocity.y = 0f;
+            Velocity.y = -0.01f;
         }
     }
 
